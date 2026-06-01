@@ -1,0 +1,317 @@
+import { j as jsxRuntimeExports } from "../_libs/react.mjs";
+import { L as Link } from "../_libs/tanstack__react-router.mjs";
+import { S as SiteLayout } from "./Layout-7fKJdN3P.mjs";
+import { h as hero } from "./real1-CH-S08wv.mjs";
+import { i as interior } from "./real3-GtM9XHg5.mjs";
+import { m as menuItems, f as formatNaira } from "./menu-54kNgO3T.mjs";
+import { m as motion } from "../_libs/framer-motion.mjs";
+import { A as ArrowRight, c as Award, U as UtensilsCrossed, d as Star, C as Clock } from "../_libs/lucide-react.mjs";
+import "../_libs/tanstack__router-core.mjs";
+import "../_libs/tanstack__history.mjs";
+import "../_libs/cookie-es.mjs";
+import "../_libs/seroval.mjs";
+import "../_libs/seroval-plugins.mjs";
+import "node:stream/web";
+import "node:stream";
+import "../_libs/react-dom.mjs";
+import "util";
+import "crypto";
+import "async_hooks";
+import "stream";
+import "../_libs/isbot.mjs";
+import "../_libs/motion-dom.mjs";
+import "../_libs/motion-utils.mjs";
+function Home() {
+  const featured = menuItems.filter((m) => m.image).slice(0, 3);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(SiteLayout, { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative -mt-20 w-full overflow-hidden", style: {
+      minHeight: "100svh"
+    }, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: hero, alt: "No Left-Overs — Authentic Nigerian Food", className: "absolute inset-0 h-full w-full object-cover", style: {
+        objectPosition: "center 40%"
+      } }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/85" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative flex flex-col justify-center min-h-screen px-4 sm:px-6 pt-24 pb-28 mx-auto max-w-5xl", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.div, { initial: {
+          opacity: 0,
+          y: -12
+        }, animate: {
+          opacity: 1,
+          y: 0
+        }, transition: {
+          duration: 0.5
+        }, className: "inline-flex self-start items-center gap-2 rounded-full px-4 py-1.5 mb-6", style: {
+          background: "rgba(244,169,0,0.15)",
+          border: "1px solid rgba(244,169,0,0.4)",
+          color: "#F4A900",
+          fontSize: "0.65rem",
+          fontWeight: 700,
+          letterSpacing: "0.28em",
+          textTransform: "uppercase"
+        }, children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "h-1.5 w-1.5 rounded-full bg-brand-gold animate-pulse shrink-0" }),
+          "Est. 2007  ·  Gbagada, Lagos"
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.h1, { initial: {
+          opacity: 0,
+          y: 28
+        }, animate: {
+          opacity: 1,
+          y: 0
+        }, transition: {
+          delay: 0.12,
+          duration: 0.75
+        }, className: "font-display font-black text-white", style: {
+          fontSize: "clamp(2rem, 5.5vw, 4rem)",
+          lineHeight: 1.1,
+          letterSpacing: "-0.02em",
+          maxWidth: "820px"
+        }, children: [
+          "We are the makers of the famous",
+          " ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-brand", children: "gourmet moin-moin" }),
+          " ",
+          "that made it to the",
+          " ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-brand-gold", children: "White House!" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(motion.p, { initial: {
+          opacity: 0,
+          y: 20
+        }, animate: {
+          opacity: 1,
+          y: 0
+        }, transition: {
+          delay: 0.28,
+          duration: 0.7
+        }, className: "mt-5 text-white/80 leading-relaxed", style: {
+          fontSize: "clamp(0.9rem, 1.8vw, 1.1rem)",
+          maxWidth: "560px"
+        }, children: "From a humble N1,000 investment in 2007 to Nigeria's most celebrated catering brand — every dish we make carries our story." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.div, { initial: {
+          opacity: 0,
+          y: 18
+        }, animate: {
+          opacity: 1,
+          y: 0
+        }, transition: {
+          delay: 0.42,
+          duration: 0.7
+        }, className: "mt-8 flex flex-wrap gap-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://wa.me/2349048858123", target: "_blank", rel: "noopener noreferrer", className: "inline-flex items-center gap-2 rounded-full bg-brand-green text-white font-bold shadow-xl hover:-translate-y-0.5 transition-all duration-200", style: {
+            padding: "0.85rem 1.75rem",
+            fontSize: "0.875rem"
+          }, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { className: "h-4 w-4 shrink-0", viewBox: "0 0 24 24", fill: "currentColor", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M12 0C5.373 0 0 5.373 0 12c0 2.117.549 4.099 1.51 5.828L.057 23.25l5.563-1.461A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.92c-1.902 0-3.67-.512-5.184-1.402l-.371-.221-3.857 1.013 1.033-3.77-.242-.385A9.917 9.917 0 012.08 12C2.08 6.515 6.515 2.08 12 2.08c5.485 0 9.92 4.435 9.92 9.92 0 5.485-4.435 9.92-9.92 9.92z" })
+            ] }),
+            "Order Now"
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/menu", className: "inline-flex items-center gap-2 rounded-full bg-brand-red text-white font-bold shadow-xl hover:-translate-y-0.5 transition-all duration-200", style: {
+            padding: "0.85rem 1.75rem",
+            fontSize: "0.875rem"
+          }, children: [
+            "See Our Menu ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "h-4 w-4 shrink-0" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/about", className: "inline-flex items-center gap-2 rounded-full text-white font-semibold hover:bg-white/15 transition-all duration-200", style: {
+            padding: "0.85rem 1.75rem",
+            fontSize: "0.875rem",
+            border: "1px solid rgba(255,255,255,0.25)",
+            background: "rgba(255,255,255,0.08)",
+            backdropFilter: "blur(8px)"
+          }, children: "Our Story" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(motion.div, { initial: {
+          opacity: 0
+        }, animate: {
+          opacity: 1
+        }, transition: {
+          delay: 0.6,
+          duration: 0.8
+        }, className: "mt-10 pt-8 grid grid-cols-2 sm:grid-cols-4 gap-5 sm:gap-8", style: {
+          borderTop: "1px solid rgba(255,255,255,0.12)",
+          maxWidth: "560px"
+        }, children: [{
+          val: "2007",
+          label: "Founded"
+        }, {
+          val: "N1K",
+          label: "Starting capital"
+        }, {
+          val: "₦M+",
+          label: "Annual turnover"
+        }, {
+          val: "Gbagada",
+          label: "Lagos"
+        }].map((s) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-display font-black text-white text-xl sm:text-2xl", children: s.val }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-white/50 text-xs uppercase tracking-widest mt-0.5", children: s.label })
+        ] }, s.val)) })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-6 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center gap-1.5", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(motion.div, { animate: {
+          y: [0, 6, 0]
+        }, transition: {
+          duration: 1.8,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }, className: "flex items-start justify-center pt-1.5", style: {
+          width: "1.25rem",
+          height: "2.25rem",
+          borderRadius: "999px",
+          border: "2px solid rgba(255,255,255,0.25)"
+        }, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "rounded-full bg-white/60", style: {
+          width: "4px",
+          height: "6px"
+        } }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: {
+          color: "rgba(255,255,255,0.35)",
+          fontSize: "0.6rem",
+          letterSpacing: "0.3em",
+          textTransform: "uppercase"
+        }, children: "Scroll" })
+      ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-ink text-cream py-6 border-y border-cream/10", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mx-auto max-w-7xl px-4 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center", children: [{
+      icon: Award,
+      label: "Founded 2007"
+    }, {
+      icon: UtensilsCrossed,
+      label: "12+ Signature Dishes"
+    }, {
+      icon: Star,
+      label: "Millions in Annual Turnover"
+    }, {
+      icon: Clock,
+      label: "Open Daily 11am–10pm"
+    }].map((s, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-2 text-xs sm:text-sm", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(s.icon, { className: "h-4 w-4 text-brand-gold" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-cream/85", children: s.label })
+    ] }, i)) }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 sm:py-28", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-7xl px-4 sm:px-6 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.div, { initial: {
+        opacity: 0,
+        y: 20
+      }, whileInView: {
+        opacity: 1,
+        y: 0
+      }, viewport: {
+        once: true
+      }, className: "relative", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: interior, alt: "No Left-Overs restaurant interior", className: "rounded-2xl shadow-2xl w-full aspect-[4/5] object-cover", loading: "lazy" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-6 -right-6 bg-brand-red text-white rounded-2xl px-6 py-5 shadow-xl hidden sm:block", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-3xl font-display font-bold", children: "Est. 2007" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xs uppercase tracking-widest opacity-90", children: "Gbagada, Lagos" })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs font-semibold uppercase tracking-[0.25em] text-brand-red", children: "Our Story" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "mt-3 font-display text-4xl sm:text-5xl font-bold text-balance", children: [
+          "From N1,000 and a dream — ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-brand", children: "No Left-Overs was born." })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-muted-foreground leading-relaxed", children: "In 2007, Ayodeji Megbope was burdened about what to cook with the N1,000 her husband gave her for food. She decided to make Moin-Moin. That same day, her sister-in-law visited, tasted it, and gave her N1,000 to make more." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-4 text-muted-foreground leading-relaxed", children: [
+          "Word spread. Orders grew. What began as a simple pot of bean cakes has grown into ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-foreground", children: "No Left-Overs Nig Ltd" }),
+          " — a full-scale catering outfit with an annual turnover running into millions of naira."
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/about", className: "mt-7 inline-flex items-center gap-2 font-semibold text-brand-red hover:gap-3 transition-all", children: [
+          "Read our full story ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "h-4 w-4" })
+        ] })
+      ] })
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 sm:py-28 bg-muted/40", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-7xl px-4 sm:px-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs font-semibold uppercase tracking-[0.25em] text-brand-red", children: "Our Selection" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "mt-3 font-display text-4xl sm:text-5xl font-bold", children: "Featured Dishes" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/menu", className: "inline-flex items-center gap-2 text-sm font-semibold text-brand-red hover:gap-3 transition-all", children: [
+          "View full menu ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "h-4 w-4" })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-3 gap-6", children: featured.map((d, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.article, { initial: {
+        opacity: 0,
+        y: 30
+      }, whileInView: {
+        opacity: 1,
+        y: 0
+      }, viewport: {
+        once: true
+      }, transition: {
+        delay: i * 0.1
+      }, className: "group bg-card rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-1", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "aspect-[4/3] overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: d.image, alt: d.name, loading: "lazy", className: "h-full w-full object-cover group-hover:scale-110 transition-transform duration-700" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start justify-between gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-xl font-bold leading-tight", children: d.name }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-brand-red font-bold whitespace-nowrap", children: formatNaira(d.price) })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-2 text-sm text-muted-foreground line-clamp-2", children: d.description })
+        ] })
+      ] }, d.id)) })
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 sm:py-28", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-5xl px-4 sm:px-6 text-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs font-semibold uppercase tracking-[0.25em] text-brand-red", children: "Guest Voices" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "mt-3 font-display text-4xl sm:text-5xl font-bold", children: "Words from our customers" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-14 grid md:grid-cols-3 gap-6 text-left", children: [{
+        q: "The Moi-Moi is absolutely unmatched! Rich, flavourful and authentic — this is what Nigerian food should taste like.",
+        a: "Adaobi N.",
+        role: "Food Lover, Lagos"
+      }, {
+        q: "I've been ordering from No Left-Overs for years. Every single time, the quality is consistent and the taste is amazing.",
+        a: "Tunde A.",
+        role: "Regular Customer"
+      }, {
+        q: "Their catering for our event was flawless. Guests couldn't stop raving about the food. Will definitely use them again!",
+        a: "Mrs. Okonkwo",
+        role: "Event Client"
+      }].map((t, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.figure, { initial: {
+        opacity: 0,
+        y: 20
+      }, whileInView: {
+        opacity: 1,
+        y: 0
+      }, viewport: {
+        once: true
+      }, transition: {
+        delay: i * 0.1
+      }, className: "rounded-2xl bg-card border border-border p-6 shadow-sm", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-0.5 text-brand-gold mb-3", children: [...Array(5)].map((_, k) => /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { className: "h-4 w-4 fill-brand-gold" }, k)) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("blockquote", { className: "text-foreground leading-relaxed", children: [
+          '"',
+          t.q,
+          '"'
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("figcaption", { className: "mt-5 text-sm", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-semibold", children: t.a }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-muted-foreground", children: t.role })
+        ] })
+      ] }, i)) })
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative overflow-hidden", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: hero, alt: "", className: "absolute inset-0 h-full w-full object-cover", loading: "lazy" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-ink/80" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative mx-auto max-w-4xl px-4 sm:px-6 py-24 sm:py-32 text-center text-cream", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl sm:text-6xl font-bold text-balance", children: "Ready to taste the best Moi-Moi in Lagos?" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-cream/80 max-w-2xl mx-auto", children: "Visit us in Gbagada or order online through WhatsApp. Freshly made, delivered with love." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8 flex flex-col sm:flex-row gap-3 justify-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://wa.me/2349048858123", target: "_blank", rel: "noopener noreferrer", className: "inline-flex items-center justify-center gap-2 rounded-full bg-brand-green px-8 py-4 font-semibold text-white shadow-xl hover:-translate-y-0.5 transition-all", children: [
+            "Order via WhatsApp ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "h-4 w-4" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:+2349048858123", className: "inline-flex items-center justify-center gap-2 rounded-full border border-cream/30 px-8 py-4 font-semibold text-cream hover:bg-cream/10 transition-all", children: "Call 09048858123" })
+        ] })
+      ] })
+    ] })
+  ] });
+}
+export {
+  Home as component
+};
